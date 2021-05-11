@@ -1,4 +1,7 @@
 # Instrumentation of webpage (Group 1)
+
+--USE FIREFOX BROWSER--
+
 Here are the parameters that we collect from each user session,
 * email: Email address
 * joined: Whether the user has signed up or not
