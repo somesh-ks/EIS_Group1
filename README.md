@@ -2,7 +2,7 @@
 Here are the parameters that we collect from each user session,
 * email: Email address
 * joined: Whether the user has signed up or not
-* time_to_join: Time taken to signup (click the signup button)
+* time_to_join: Time taken (miliseconds) to signup (click the signup button)
 * variation: Which variation was used by the user
 * visits: How many times did the user visit this website?
 
