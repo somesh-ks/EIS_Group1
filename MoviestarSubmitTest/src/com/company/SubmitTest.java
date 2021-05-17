@@ -49,17 +49,16 @@ public class SubmitTest {
             }
             myReader.close();
         } catch (FileNotFoundException e) {
-            System.out.println("An error occurred.");
             e.printStackTrace();
         }
 
-        int howManyTests = Math.round((textButtonDelayList.size() + iconButtonDelayList.size()) / 2);
+        int numOfTests = Math.round((textButtonDelayList.size() + iconButtonDelayList.size()) / 2);
         if (textButtonDelayList.size() != iconButtonDelayList.size()) {
-            howManyTests = 100; // arbitrary
+            numOfTests = 100; // arbitrary
         }
         double delayValue = 11500;
 
-        for (int i = 0; i < howManyTests; i++) {
+        for (int i = 0; i < numOfTests; i++) {
 
             driver.get("https://somesh-ks.github.io/EIS_moviestar/");
 
